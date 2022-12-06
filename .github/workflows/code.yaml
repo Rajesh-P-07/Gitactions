@@ -34,7 +34,7 @@ jobs:
 
   deploy:
     name: deploy
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: build
 
     steps: 
